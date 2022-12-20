@@ -8,12 +8,21 @@ for (i=0;i<arr.length;i++){
         continue;
     }
     console.log(arr[i]);
-}
+}console.log(" ");
 
 //for of loop :
 for (let candidate of arr ){
     if (candidate === "Post2"){
         continue;
     }
-    console.log(candidate);
+    console.log(candidate,"of for of loop");
 }
+console.log(" ");
+
+//array mapping
+arr.map((candidate) => { console.log(candidate,"of mapping");});
+console.log(" ");
+
+//array find
+const findedpost = arr.find((candidate) => {return candidate === "Post4";});
+console.log(findedpost);

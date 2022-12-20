@@ -28,6 +28,3 @@ for(let i = b; i<a; i++)
 
 }
 console.timeEnd("timer-1")
-
-
-
