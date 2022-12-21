@@ -13,33 +13,40 @@ Models = [
   { name: "Astha 8", course: "Btech", college: "MMMUT", age: 19 },
 ];
 
-//to access only name Astha 6:
-console.log(Models[5].name);
+// //to access only name Astha 6:
+// console.log(Models[5].name);
 
-//to update a particuar term:
+// //to update a particuar term:
+// for (let a of Models) {
+//   if (a.name === "Astha 4") {
+//     a.name = "Astha 9";
+//   }
+// }
+// console.log(Models);
+
+// //to update the particular term in all objects of array:
+// for (let a of Models) {
+//   a.age = 20;
+// }
+// console.log(Models);
+
+// //to add a new term in all objects of array:
+// for (let a of Models) {
+//   a.branch = "ECE";
+// }
+// console.log(Models);
+
+// //to add a new term only in a particular object of array:
+// for (let a of Models) {
+//   if (a.name === "Astha 1") {
+//     a.session = "2021-2025";
+//   }
+// }
+// console.log(Models);
+
 for (let a of Models) {
-  if (a.name === "Astha 4") {
-    a.name = "Astha 9";
+  if (a === { name: "Astha 1", course: "Btech", college: "MMMUT", age: 19 }) {
+    continue;
   }
+  console.log(a);
 }
-console.log(Models);
-
-//to update the particular term in all objects of array:
-for (let a of Models) {
-  a.age = 20;
-}
-console.log(Models);
-
-//to add a new term in all objects of array:
-for (let a of Models) {
-  a.branch = "ECE";
-}
-console.log(Models);
-
-//to add a new term only in a particular object of array:
-for (let a of Models) {
-  if (a.name === "Astha 1") {
-    a.session = "2021-2025";
-  }
-}
-console.log(Models);

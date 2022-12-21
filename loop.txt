@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 There are three conditions -:
 1. Initial condition
    -->it gives the first condition of the loop , from here the loop is started by checking the initial condition.
@@ -13,19 +13,4 @@ There are three conditions -:
       condition after each loop.
     e.g. index = index + 1 or i++
     
-=======
-There are three conditions -:
-1. Initial condition
-   -->it gives the first condition of the loop , from here the loop is started by checking the initial condition.
-   e.g. let index = 0
-
-2. Satisfactory condition
-   -->it is the second condition after following the intial condition loop checks this condition , it can either be true or false .
-   e.g. index < 10
-
-3. Update in index -:
-   -->after checking the initial condition and Satisfactory condition , if the satisfactory condition is true it updates the 
-      condition after each loop.
-    e.g. index = index + 1 or i++
->>>>>>> d5eee098d274689f2d04faecf52ceefe4d2aa18f
     
