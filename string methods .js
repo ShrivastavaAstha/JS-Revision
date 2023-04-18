@@ -14,8 +14,9 @@ console.log(lice);
 
 //------>substring FUNCTION :
 
-let sub = text.substring(7, 13); //It includes negative values too while slice don't.
-console.log(sub);
+let sub = text.substring(7, 13);
+console.log(sub); // If the start > stop , then the function swaps both arguments while in slice() ,
+// if start > stop, the function returns an empty string .
 
 //------>substr FUNCTION :
 

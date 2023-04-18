@@ -6,7 +6,7 @@ for (let i = 1; i < 50; i = i + 5) {
   console.log(i);
 }
 
-//Iteration means one cycle of for loop before update of i
+//Iteration means one cycle of for loop before update of i.
 
 //Break Statement :-
 //-----> it instantly terminates the for loop and come outside of it.

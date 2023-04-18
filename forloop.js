@@ -28,3 +28,6 @@ let collegename = "MMMUT";
 
 //another way
 console.log(`Hello Iam from ${collegename}`);
+
+//Static Sentences do not have any variable.
+//Dynamic Sentences have variables.

@@ -1,4 +1,4 @@
-//nested object is an object is an object in which one of the value of any key is again an object.
+//nested object is an object  in which one of the value of any key is again an object.
 const info = [
   {
     name: "Astha",

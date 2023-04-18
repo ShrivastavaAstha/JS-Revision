@@ -39,3 +39,4 @@ console.log(" ");
 const findedpost = arr.find((candidate) => {
   return candidate === "Post4";
 });
+console.log(findedpost);
